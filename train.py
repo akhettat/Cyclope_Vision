@@ -27,7 +27,7 @@ epochs = 50  # Nombre d'époques
 batch_size = 16  # Taille du lot
 img_size = 640  # Taille des images 
 
-# Importation du modèle sur PyTorch pour cahnger le modèle (rajout dropout)
+# Importation du modèle sur PyTorch pour changer le modèle (rajout dropout)
 from yolov5.models.yolo import Model
 
 class CustomModel(Model):
