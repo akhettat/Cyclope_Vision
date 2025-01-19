@@ -15,7 +15,7 @@ time2 = time.time_ns()
 duration_ms = (time2 - time1) / 1e6
 print(f"Temps d'inférence : {duration_ms:.2f} ms")
 for result in results:
-    boxes = result.boxes  # Boxes object for bounding box outputs
+    boxes = result.boxes  # Boxes object for bounding box outputsdd 
     masks = result.masks  # Masks object for segmentation masks outputs
     keypoints = result.keypoints  # Keypoints object for pose outputs
     probs = result.probs  # Probs object for classification outputs
